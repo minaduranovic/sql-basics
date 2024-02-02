@@ -20,8 +20,6 @@ from pravno_lice p, fizicko_lice f, lokacija l
 where p.lokacija_id=l.lokacija_id and f.lokacija_id=l.lokacija_id);
  
 
-
-
 --2  Ispisati bez ponavljanja datum potpisivanja ugovora (u formatu dd.MM.yyyy) i naziv
 --pravnog lica za sve ugovore kod kojih je datum potpisivanja poslije prvog datuma
 --kupoprodaje faktura koje sadrže proizvod kod kojeg broj mjeseci garancije nije null.
